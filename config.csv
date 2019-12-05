@@ -1,0 +1,8 @@
+config name,Value,解释
+stacpart_5_percent,0.05,小区边缘计算为5%的采样
+stacpart_50_percent,0.5,小区平均计算为50%的采样
+stacfactor_5_percent,0.7,小区边缘计算合并（overlap和Non overlap）的影响因子
+stacfactor_50_percent,0.7,小区平均计算合并（overlap和Non overlap）的影响因子
+overlapThr,20,判断是否overlap的距离门限，单位为米
+ULTHPfactor,50,根据UL thp 计算DL THP所用的倍数
+CPUusage,100,工具运转时所使用的CPU利用率，单位为%
